@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 # Read the dataset
-df = pd.read_excel(r'C:\Users\ADMIN\Desktop\Market-Basket-Analysis-main\groceries.xlsx', header=None)
+df = pd.read_excel('groceries.xlsx', header=None)
+
 
 # Display the size of the dataset
 nRow, nCol = df.shape

@@ -49,9 +49,10 @@ Before running the analysis, ensure the required libraries are installed:
 - `mlxtend`
 - `matplotlib`
 - `wordcloud`
+- `openpyxl`
 
 ```bash
-pip install numpy pandas mlxtend matplotlib wordcloud
+pip install numpy pandas mlxtend matplotlib wordcloud openpyxl
 ```
 
 
